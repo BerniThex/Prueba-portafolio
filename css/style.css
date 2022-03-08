@@ -4,10 +4,27 @@ html{
 body{
     background-color: rgb(187, 187, 187);
     padding: 0%;
-    margin-top: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.separadorLista{
+    margin-left: 20px;
+}
+
+.separado{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.separado-abajo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .fondoBlanco{
@@ -32,3 +49,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     color: brown;
 }
+
+.colo-cele{background-color: rgb(197, 228, 255);}
+
+.colo-marro{background-color: rgb(250, 204, 167);}

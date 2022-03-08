@@ -10,17 +10,17 @@
     </head>
     <body>
         <div class="fondoBlanco">
-            <img class="imagen" src="imagenes/yo.jpg" width="135px" height="180px" initial-scale="1.0">
+            <img class="imagen separado" src="imagenes/yo.jpg" width="135px" height="180px" initial-scale="1.0">
             <h1>¡Hola!<br>
                  Soy Dylan Solorzano y quiero ser developer web fullstack.</h1>
               <h2>Te cuento sobre mi:</h2>
-              <p>Soy un chico de la provincia "Buenos Aires", concretamente del partido de "La Matanza".<br>
+              <p class="separado-abajo">Soy un chico de la provincia "Buenos Aires", concretamente del partido de "La Matanza".<br>
                 Me encanta el mundo de la tecnología desde chico. Poco a poco el interes por querer trabajar en algo relacionado con ella <br>
                  me llevó a investigar sobre el hardware de computadoras y posteriormente conocí la programación.<br>
                 </p>
         </div>
         <div class="fondoBlanco">
-            <h3>Mis objetivos principales son:</h3>
+            <h3 class="separado">Mis objetivos principales son:</h3>
             <!--Aca podría usar tanto la lista organizada(ol), la lista sin organizar(ul)
             y las listas de definición (dl) estas ultimas son las que más me gustan
             porque podemos crear sub-categorias como:
@@ -28,7 +28,7 @@
                 "navegador web"
             
             colocando "firefox" como (dt) y "navegador web" como (dd)-->
-                 <ol type="1">
+                 <ol class="separadorLista" type="1">
                    <li>Mejorar mis habilidades con trabajo en equipo.</li>
                   <li>Incrementar mis conocimientos al punto de poder crear un sitio web dinamico entero por mi propia cuenta.</li>
                   <li>Convertirme en desarrollador de videojuegos.</li>
@@ -37,6 +37,38 @@
                <dl>
                  
               </dl>
+        </div>
+        <div class="fondoBlanco">
+            <h2 class="separado">¡También soy jugador de Valorant!</h2>
+            <h3 class="separado">Estos son los personajes que se jugar:<br>
+                 (o con los que más me defiendo)</h3>
+            <!--container-->
+            <div class="container">
+                <!--PRIMER FILA-->
+                <div class="row">
+                    <div class="rounded float-start border colo-cele col-4"><strong>Cypher</strong><br>Este personaje es mi <b>Main</b> desde hace ya 1 año y medio aproximadamente.</div>
+                    <div class="col-4"></div>
+                    <div class="rounded float-end border colo-marro col-4"><b>Brimstone</b><br>Este personaje y Omen, es la opción que suelo elegir cuando se precisa de algun agente que lanze humos y nadie quiere</div>
+                </div>
+                <!--SEGUNDA FILA-->
+                <div class="row">
+                    <div class="border colo-cele col-4"><img src="imagenes/cypher-card.png" class="rounded float-start img-fluid" alt=""></div>
+                    <div class="col-4"></div>
+                    <div class="border colo-marro col-4"><img src="imagenes/brims-card.png" class="rounded float-end img-fluid" alt=""></div>
+                </div>
+                <!--TERCER FILA-->
+                <div class="row">
+                    <div class="rounded float-start border colo-cele col-4"><b>Omen</b><br>Este, como ya dije anteriormente, es una de mis segundas opciones. No soy el mejor Omen, pero me defiendo</div>
+                    <div class="col-4"></div>
+                    <div class="rounded float-end border colo-marro col-4"><b>Breach</b><br>Este sin dudas, es el agente con el que mejor me lo paso y resulta para mi uno de los agentes más divertidos para jugar</div>
+                </div>
+                <!--CUARTA FILA-->
+                <div class="row">
+                    <div class="border colo-cele col-4"><img src="imagenes/omen-card.png" class="rounded float-start img-fluid" alt=""></div>
+                    <div class="col-4"></div>
+                    <div class="border colo-marro col-4"><img src="imagenes/breach-card.png" class="rounded float-end img-fluid" alt=""></div>
+                </div>
+            </div>
         </div>
         <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     </body>
