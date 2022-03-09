@@ -53,3 +53,14 @@ h3{
 .colo-cele{background-color: rgb(197, 228, 255);}
 
 .colo-marro{background-color: rgb(250, 204, 167);}
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 300px;
+}
+
+.sombreado{
+    box-shadow: inset;
+}
